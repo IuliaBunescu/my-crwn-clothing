@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+* {
+  //affects everything
+  box-sizing: border-box; // this way, border and padding do not modify the width that is set for the element
+}

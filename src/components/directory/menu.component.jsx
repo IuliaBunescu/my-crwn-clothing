@@ -1,9 +1,9 @@
 import "./menu.styles.scss";
 import CategoryItem from "../category-item/category-item.component";
 
-const Menu = ({ categories }) => {
+const Directory = ({ categories }) => {
   return (
-    <div className="menu-container">
+    <div className="directory-container">
       {categories.map((category) => (
         <CategoryItem key={category.id} category={category} />
       ))}
@@ -11,4 +11,4 @@ const Menu = ({ categories }) => {
   );
 };
 
-export default Menu;
+export default Directory;
